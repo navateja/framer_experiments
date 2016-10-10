@@ -109,10 +109,10 @@ green_dot_pulse = (i) ->
 			run_stick_animations()
 
 run_pulses = ->
-	blue_dot_pulse(5)
-	red_dot_pulse(4)
-	yellow_dot_pulse(3)
-	green_dot_pulse(5)	
+	blue_dot_pulse(4)
+	red_dot_pulse(5)
+	yellow_dot_pulse(4)
+	green_dot_pulse(4)	
 
 run_pulses()
 
@@ -134,8 +134,8 @@ blue_stick_pulse = (i) ->
 red_stick_animation = new Animation
 	layer: red_dot
 	properties: 
-		height: 100
-		y: 160
+		height: 160
+		y: 130
 	time: 0.3
 
 red_stick_pulse = (i) ->
@@ -149,8 +149,8 @@ red_stick_pulse = (i) ->
 yellow_stick_animation = new Animation
 	layer: yellow_dot
 	properties: 
-		height: 200
-		y: 100
+		height: 240
+		y: 80
 	time: 0.3
 
 yellow_stick_pulse = (i) ->
